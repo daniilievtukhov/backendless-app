@@ -34,7 +34,7 @@ const DummyList = () => (
             </tbody>
         </table>
         <div className={s.btn_block}>
-            <Link to={"/backendless-app"}>
+            <Link to={"/"}>
                 <button className={s.btn}>Go Home</button>
             </Link>
         </div>
