@@ -12,9 +12,18 @@ const App = () => {
         <div>
             <Routes>
                 <Route path="/backendless-app" element={<HomePage />} />
-                <Route path="/dummyTable" element={<DummyTable />} />
-                <Route path="/dummyChart" element={<DummyChart />} />
-                <Route path="/dummyList" element={<DummyList />} />
+                <Route
+                    path="/backendless-app/dummyTable"
+                    element={<DummyTable />}
+                />
+                <Route
+                    path="/backendless-app/dummyChart"
+                    element={<DummyChart />}
+                />
+                <Route
+                    path="/backendless-app/dummyList"
+                    element={<DummyList />}
+                />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </div>

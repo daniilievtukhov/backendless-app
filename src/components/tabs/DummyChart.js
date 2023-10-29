@@ -34,7 +34,7 @@ const DummyChart = () => (
             </tbody>
         </table>
         <div className={s.btn_block}>
-            <Link to={"/"}>
+            <Link to={"/backendless-app"}>
                 <button className={s.btn}>Go Home</button>
             </Link>
         </div>

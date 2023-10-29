@@ -40,7 +40,7 @@ const Header = () => {
                 <nav className={s.nav}>
                     {menuItems.map(({ title, link }, index) => (
                         <Link
-                            to={link}
+                            to={`/backendless-app${link}`}
                             key={index}
                             className={({ isActive }) => {
                                 return isActive ? s.active : "";
