@@ -7,7 +7,7 @@ import "../src/components/shared/styles/index.scss";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-    <BrowserRouter basename="/backendless-app">
+    <BrowserRouter>
         <App />
     </BrowserRouter>
 );
