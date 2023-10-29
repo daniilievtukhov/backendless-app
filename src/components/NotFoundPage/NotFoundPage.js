@@ -14,7 +14,7 @@ export function NotFoundPage() {
                 </div>
                 <div className={s.text}>This page does not exist</div>
                 <div className={s.btn_block}>
-                    <Link to={"/"}>
+                    <Link to={"/backendless-app"}>
                         <button className={s.btn}>Go Home</button>
                     </Link>
                 </div>
