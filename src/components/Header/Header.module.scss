@@ -1,0 +1,52 @@
+$gradient: linear-gradient(180deg, #ce9ffc 0%, #a582f7 50.52%, #7367f0 100%);
+$purple: #7367f0;
+
+.header {
+    height: 130px;
+    width: 100%;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    background: linear-gradient(#000, #000) padding-box,
+        linear-gradient(90deg, #a767e8 0%, #a582f7 50.52%, #7367f0 100%)
+            border-box;
+    font-weight: 500;
+    z-index: 30;
+    border-bottom: 1px solid transparent;
+    & > div:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo:hover {
+        transform: scale(1.02);
+    }
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    padding: 16px;
+    justify-content: space-around;
+
+    & a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.6;
+        flex-grow: 1;
+        text-align: center;
+        margin-top: 30px;
+
+        &:hover {
+            color: white;
+        }
+
+        &.active {
+            color: white;
+        }
+    }
+}
